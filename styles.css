@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html, body{
+    height: 100%;
+    scroll-behavior: smooth;
+    background: #0b0b15;
+    color: #eaeaf6;
+    font-family: "Inter", sans-serif;
+}
+
+.header img{
+    width: 50px;
+    border-radius: 100px;
+    margin: auto 10px;
+    border: 2px solid #00607A;
+    padding: 5px;
+
+}
+
+.header{
+    border: 1px solid #00607A;
+    border-radius: 10px;
+    width: 30%;
+    height: 10%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.text-footer{
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.text-container h3{
+    letter-spacing: 1px;
+}
+
+.social-icons{
+    display: flex;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.icon{
+    color: #eaeaf6;
+    margin: 10px 2px;
+    padding: 2px;
+    transition: transform 500ms;
+    font-size: 20px;
+}
+
+.fa-brands{
+    padding: 2px;
+}
+
+
+.icon:hover{
+    transform: translateY(-0.5rem);
+    transition: transform 150ms;
+}
+
+.project-desc{
+    border-bottom: 1px solid #00607A;
+    width: 31%;
+    margin: 0 auto;
+}
+
+.project-desc p{
+    margin-left: 10px;
+    margin-bottom: 4px;
+}
+
+.project-preview{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-links{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #00607A;
+    border-radius: 10px;
+    width: 240px;
+    transition: transform 500ms;
+    cursor: pointer;
+    color: none;
+    margin: 20px;
+}
+
+.container:hover{
+    transform: scale(1.05);
+    transform: 100ms;
+}
+
+.project-img{
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.project-title-subtitle{
+    background-color: #00607A;
+}
+
+.project-title{
+    color: #eaeaf6;
+    padding: 5px;
+    font-weight: 500;
+}
+
+.project-subtitle{
+    color: #eaeaf6;
+    padding: 5px;
+}
